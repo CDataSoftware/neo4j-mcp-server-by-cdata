@@ -1,9 +1,9 @@
 # neo4j-mcp-server-by-cdata
 CData's Model Context Protocol (MCP) Server for Neo4J
 
-:heavy_exclamation_mark: This project builds a read-only MCP server. For full read, write, update, delete, and action capabilities and a simplified setup, check out our free [CData MCP Server for Neo4J (beta)](https://www.cdata.com/download/download.aspx?sku=LNZM-V&type=beta). 
+:heavy_exclamation_mark: This project builds a read-only MCP server. For full read, write, update, delete, and action capabilities and a simplified setup, check out our free [CData MCP Server for Neo4J](https://www.cdata.com/drivers/neo4j/download/mcp/). 
 ## Purpose
-We created this read-only MCP Server to allow LLMs (like Claude Desktop) to query live data Neo4J supported by the [CData JDBC Driver for Neo4J](https://www.cdata.com/drivers/neo4j/jdbc).
+We created this read-only MCP Server to allow LLMs (like Claude Desktop) to query live data Neo4J supported by the [CData JDBC Driver for Neo4J](https://www.cdata.com/drivers/neo4j/jdbc/).
 
 CData JDBC Driver connects to Neo4J by exposing them as relational SQL models.
 
@@ -20,7 +20,7 @@ This server wraps that driver and makes Neo4J data available through a simple MC
       mvn clean install
       ``` 
       This creates the JAR file: CDataMCP-jar-with-dependencies.jar
-2. Download and install the CData JDBC Driver for {source}: [https://www.cdata.com/drivers/neo4j/download/jdbc](https://www.cdata.com/drivers/neo4j/download/jdbc)
+2. Download and install the CData JDBC Driver for {source}: [https://www.cdata.com/drivers/neo4j/download/jdbc](https://www.cdata.com/drivers/neo4j/download/jdbc/)
 3. License the CData JDBC Driver:
     * Navigate to the `lib` folder in the installation directory, typically:
         * (Windows) `C:\Program Files\CData\CData JDBC Driver for Neo4J\`
